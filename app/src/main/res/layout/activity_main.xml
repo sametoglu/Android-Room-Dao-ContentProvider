@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samet.final2.MainActivity">
+
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Adı"/>
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_below="@id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="SoyAdı"/>
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lastname"
+        android:id="@+id/spinnergun"
+        android:entries="@array/gunler"
+        android:spinnerMode="dialog"
+        android:prompt="@string/app_name"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnergun"
+        android:text="Kaydet"
+        android:id="@+id/btn_kaydet"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_kaydet"
+        android:text="bak"
+        android:id="@+id/btn_provider_test"
+        />
+
+</RelativeLayout>

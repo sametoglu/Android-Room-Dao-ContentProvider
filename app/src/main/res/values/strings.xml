@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Final2</string>
+
+    <string-array name="gunler">
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Carsamba</item>
+        <item>Persembe</item>
+        <item>Cuma</item>
+    </string-array>
+</resources>
